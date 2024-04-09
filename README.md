@@ -21,6 +21,8 @@ If `chromedriver` is not install [read here to learn how to install chromedriver
 
 You will need Python 3.10+ and `pytest` 8+ 
 
+### Use a virtual environment
+
 NOTE: pytest is a third-party library, and you should use a virtual environment and `pip` to install it.
 [Read here to learn how to use a virtual environment](VIRTUALENV.md)
 
@@ -30,29 +32,51 @@ This is an example of how to install and run `pytest-selenium`, a Selenium plugi
 
 ## Use pip to install pytest
 
-Confirm pip version by running `pip --version`
+Confirm pip version by running:
+```bash
+(.venv) $ pip --version
+```
+
+Returns:
 ```bash
 pip 24.0 from /Users/ ... /tdd-exercises-python/.venv/lib/python3.11/site-packages/pip (python 3.11)
 ```
 
-Install pytest by running `pip install pytest`
+To upgrade, run:
+```bash
+(.venv) $ pip install --upgrade pip
+```
 
-Confirm the pytest version by running `pytest --version`
+### Install pytest
+
+Install `pytest` by running:
+```bash
+(.venv) $ pip install pytest
+```
+
+Confirm the pytest version by running:
+```bash
+(.venv) $ pytest --version
+```
+
+Returns:
 ```bash
 pytest 8.1.1
 ```
 
 ## Use pip to install pytest-selenium
 
-Install pytest-selenium by running `pip install pytest-selenium`
-
+Install pytest-selenium by running:
+```bash
+(.venv) $ pip install pytest-selenium
+```
 
 # Run the tests
 Now, run the automated tests.
 
 Running:
 ```bash
-pytest
+(.venv) $ pytest
 ```
 
 Returns
