@@ -1,4 +1,4 @@
-# ChromeDriver
+# Learn how to install chromedriver
 
 ChromeDriver is used by Selenium for the automated testing of webapps for Google Chrome.
 
@@ -12,8 +12,7 @@ You will need to accomplish the following:
 - Set Up a Python Virtual Environment
 - Install Selenium
 
-This guide walks you through these steps.
-[Installation Guide for Google Chrome, ChromeDriver, and Selenium in a Python Virtual Environment](https://katekuehl.medium.com/installation-guide-for-google-chrome-chromedriver-and-selenium-in-a-python-virtual-environment-e1875220be2f)
+This guide walks you through these steps - [Installation Guide for Google Chrome, ChromeDriver, and Selenium in a Python Virtual Environment](https://katekuehl.medium.com/installation-guide-for-google-chrome-chromedriver-and-selenium-in-a-python-virtual-environment-e1875220be2f)
 
 ## MacOS and Homebrew
 
@@ -24,9 +23,12 @@ I used Homebrew to install `chromedriver` on my Mac.
 I used this Homebrew formula to install `chromedriver`
 https://formulae.brew.sh/cask/chromedriver
 
+Running:
 ```bash
 $ brew install --cask chromedriver
 ```
+
+Installed the `chromedriver` file.
 
 ## MacOS error
 

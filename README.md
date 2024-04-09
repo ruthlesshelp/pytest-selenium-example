@@ -1,5 +1,5 @@
 # Pytest Selenium WebDriver Example
-This repo contains the sample code for the article - [How To Use Pytest With Selenium For Web Automation Testing](https://pytest-with-eric.com/automation/pytest-selenium/).
+This repo contains sample code that derives from this article - [How To Use Pytest With Selenium For Web Automation Testing](https://pytest-with-eric.com/automation/pytest-selenium/).
 
 ## Selenium Chrome Driver
 
@@ -15,7 +15,7 @@ Returns (something like):
 ChromeDriver 123.0.6312.105 (399174dbe6eff0f59de9a6096129c0c827002b3a-refs/branch-heads/6312@{#761})
 ```
 
-If `chromedriver` is not install [read here to learn how to install chromedriver](CHROMEDRIVER.md)
+If `chromedriver` is not install, read this - [Learn how to install chromedriver](CHROMEDRIVER.md)
 
 ## Requirements
 
@@ -24,7 +24,7 @@ You will need Python 3.10+ and `pytest` 8+
 ### Use a virtual environment
 
 NOTE: pytest is a third-party library, and you should use a virtual environment and `pip` to install it.
-[Read here to learn how to use a virtual environment](VIRTUALENV.md)
+To learn more about using a virtual environment, read this - [Using a Python virtual environment](VIRTUALENV.md)
 
 ## Getting Started - a pytest-selenium example
 
